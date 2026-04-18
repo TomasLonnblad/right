@@ -126,8 +126,8 @@ export default function AnimatedLanding() {
               whileTap={{ scale: 0.95 }}
             >
 
-           
-            <ScrambleTextOnHover text=" Shader" as="span" duration={0.6} />
+
+            <ScrambleTextOnHover text=" SHADER" as="span" duration={0.6} />
             <BitmapChevron className="transition-transform duration-[200ms] ease-in-out group-hover:rotate-45" />
 
 
