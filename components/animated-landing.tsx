@@ -126,6 +126,22 @@ export default function AnimatedLanding() {
               whileTap={{ scale: 0.95 }}
             >
 
+            <ScrambleTextOnHover text=" SHADER&emsp;" as="span" duration={0.6} />
+            <BitmapChevron className="transition-transform duration-[200ms] ease-in-out group-hover:rotate-45" />
+
+
+
+            </MotionLink>
+
+
+
+            
+            <MotionLink
+              href="https://tomaslonnblad.github.io/tl335555555"
+              className={buttonVariants({ size: "lg", variant: "default" }) + " bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-semibold px-8 py-4 rounded-full transition-all duration-200"}
+              whileHover={{ scale: 1.05, boxShadow: "0 0 15px rgba(139, 92, 246, 0.5)" }}
+              whileTap={{ scale: 0.95 }}
+            >
 
             <ScrambleTextOnHover text=" SHADER&emsp;" as="span" duration={0.6} />
             <BitmapChevron className="transition-transform duration-[200ms] ease-in-out group-hover:rotate-45" />
@@ -157,7 +173,7 @@ export default function AnimatedLanding() {
           <a href="https://tomaslonnblad.github.io/tleeee">
             <FeatureCard feature="3D" icon={Zap} delay={1.2} /></a>
              <a href="
-https://tomaslonnblad.github.io/tl22211
+https://tomaslonnblad.github.io/tl3377777/
 ">
             <FeatureCard feature="Samples" icon={Shield} delay={1.4} /></a>
             <a href="https://tomaslonnblad.github.io/">
