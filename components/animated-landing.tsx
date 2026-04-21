@@ -70,7 +70,7 @@ export default function AnimatedLanding() {
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
             >
-              Modular Design with Shadcn CLI &nbsp;
+              Modular Design with Shadcn  &nbsp;
             </motion.h1>
             {/* <motion.h2
               className="text-3xl font-bold md:text-5xl text-gray-200 mt-4"
