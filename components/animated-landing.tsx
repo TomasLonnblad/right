@@ -98,19 +98,18 @@ export default function AnimatedLanding() {
           >
 
 
+
+            
+
             <MotionLink
-              //href="/dashboard"
               href="https://beamish-cendol-988a1e.netlify.app/dashboard/motionx/app"
-              className={buttonVariants({ size: "lg", variant: "default" }) + " bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-semibold px-8 py-4 rounded-full"}
+              className={buttonVariants({ size: "lg", variant: "default" }) + " bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-semibold px-8 py-4 rounded-full transition-all duration-200"}
               whileHover={{ scale: 1.05, boxShadow: "0 0 15px rgba(139, 92, 246, 0.5)" }}
               whileTap={{ scale: 0.95 }}
             >
-              DASHBOARD
-              <ArrowRight className="ml-2 h-5 w-5" />
+            <ScrambleTextOnHover text=" DASHBOARD &emsp;" as="span" duration={0.6} />
+            <BitmapChevron className="transition-transform duration-[200ms] ease-in-out group-hover:rotate-45" />
             </MotionLink>
-            
-
-
 
 
 
@@ -122,7 +121,7 @@ export default function AnimatedLanding() {
               whileHover={{ scale: 1.05, boxShadow: "0 0 15px rgba(139, 92, 246, 0.5)" }}
               whileTap={{ scale: 0.95 }}
             >
-            <ScrambleTextOnHover text=" 3D &emsp;" as="span" duration={0.6} />
+            <ScrambleTextOnHover text=" 3D MODEL &emsp;" as="span" duration={0.6} />
             <BitmapChevron className="transition-transform duration-[200ms] ease-in-out group-hover:rotate-45" />
             </MotionLink>
 
