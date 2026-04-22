@@ -127,7 +127,16 @@ export default function AnimatedLanding() {
 
 
 
+            <MotionLink
+              href="https://agent-69e8cbbd5ecc59345--cerulean-treacle-5db364.netlify.app/?fbclid=IwY2xjawRVvPtleHRuA2FlbQIxMABicmlkETBqMms1NWlNR2tOTFgyaUs5c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHlUkLjKDH2onIa6MJH3rWZrDkcHoiiDTgeLz5f_RYYzReAbMWcVnBJPc9yG4_aem_wT7gJa9vall395FMyJ6IQQ"
+              className={buttonVariants({ size: "lg", variant: "default" }) + " bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-semibold px-8 py-4 rounded-full transition-all duration-200"}
+              whileHover={{ scale: 1.05, boxShadow: "0 0 15px rgba(139, 92, 246, 0.5)" }}
+              whileTap={{ scale: 0.95 }}
+            >
 
+            <ScrambleTextOnHover text=" GOLF &emsp;" as="span" duration={0.6} />
+            <BitmapChevron className="transition-transform duration-[200ms] ease-in-out group-hover:rotate-45" />
+            </MotionLink>
 
 
             
