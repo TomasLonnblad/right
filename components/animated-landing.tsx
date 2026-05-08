@@ -26,7 +26,7 @@ const FeatureCard = ({ feature, icon: Icon, delay }) => (
     <Icon className="w-12 h-12 mb-4 text-indigo-400" />
     <h3 className="text-xl font-bold mb-2 text-white">{feature}</h3>
     <p className="text-gray-300">
-      Implemented new script  .
+      Implemented new script  
     </p>
   </motion.div>
 );
