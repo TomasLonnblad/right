@@ -191,7 +191,7 @@ export default function AnimatedLanding() {
           <a href="https://tomaslonnblad.github.io/tleeee">
             <FeatureCard feature="3D" icon={Zap} delay={1.2} /></a>
              <a href="
-https://tomaslonnblad.github.io/tl3377777/
+https://tomaslonnblad.github.io/t5
 ">
             <FeatureCard feature="Samples" icon={Shield} delay={1.4} /></a>
             <a href="https://tomaslonnblad.github.io/">
